@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body id="particles-js">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="end.html">Result</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" id="navItem">Quiz App Made with <i class="fa fa-heart" aria-hidden="true"></i> by Abdullah Hashmi</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                <div class="wrapper end">
+                    <div class="main">
+                        <table >
+                            <tr>
+                                <td class="borderRight">Player Name</td>
+                                <td id="player"></td>
+                            </tr>
+                            <tr>
+                                <td class="borderRight">Correct</td>
+                                <td id="correct"></td>
+                            </tr>
+                            <tr>
+                                <td class="borderRight">Points</td>
+                                <td id="Pt"></td>
+                            </tr>
+                        
+                            <tr>
+                                <td class="borderRight">Remarks</td>
+                                <td id="remarks"></td>
+                            </tr>
+                            <tr>
+                                <td class="borderRight">Percentage</td>
+                                <td id="per"></td>
+                            </tr>
+                        </table>    
+                   </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="app1.js"></script>
+
+</html>
